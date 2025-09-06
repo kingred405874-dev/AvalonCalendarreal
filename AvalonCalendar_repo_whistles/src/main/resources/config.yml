@@ -1,0 +1,27 @@
+start:
+  year: 2025
+  month: 1
+  day: 1   # Jan 1, 2025
+storage:
+  year: 2025
+  month: 1
+  day: 1
+display:
+  bossbar:
+    enabled: true
+    color: GREEN
+    style: SEGMENTED_10
+    title: "&6Avalon — &e%MONTH_FULL% %DAY%, %YEAR% &7— &f%PROGRESS%%%"
+  actionbar:
+    enabled: true
+    format: "&e%MONTH_ABBR% %DAY%, %YEAR% &7— &f%PROGRESS%%% &7to sunrise"
+    intervalTicks: 40
+broadcast:
+  onNewDate: true
+  format: "&6☀ New Date: &e%WEEKDAY%, %MONTH_FULL% %DAY%, %YEAR%"
+  sound: ENTITY_PLAYER_LEVELUP
+calendar:
+  weekdayIndex: 2  # 0=Mon..6=Sun, Jan 1 2025 is Wed (2)
+  sunriseFallback: true   # also advance at sunrise if a sleep plugin doesn't fire NIGHT_SKIP
+monthsFull: [January, February, March, April, May, June, July, August, September, October, November, December]
+monthsAbbr: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]

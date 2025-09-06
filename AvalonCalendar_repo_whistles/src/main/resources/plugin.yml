@@ -1,0 +1,17 @@
+name: AvalonCalendar
+main: com.avalon.calendar.AvalonCalendarPlugin
+version: 1.0.0
+api-version: '1.21'
+description: Real calendar that advances on sleep; bossbar + actionbar; sunrise fallback.
+author: Avalon
+softdepend: [PlaceholderAPI]
+commands:
+  calendar:
+    description: Show/Manage the Avalon calendar
+    usage: /calendar [show|togglebossbar|toggleactionbar|reset|set|reload]
+    permission: avaloncalendar.use
+permissions:
+  avaloncalendar.use:
+    default: true
+  avaloncalendar.admin:
+    default: op
